@@ -37,9 +37,21 @@ img {
     position: relative;
     width: 100%;
   }
+.showcase::after {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000,inset -120px -100px 250px #000;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  } 
 .showcase-top {
     height: 90px;
     position: relative;
+    z-index: 2;
   }
 .showcase-top img {
     left: 50%;
@@ -71,6 +83,14 @@ img {
     font-weight: 700;
     line-height: 1.1;
     margin: 0 0 2rem;
+  }
+.showcase-content p {
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 1.25;
+    marging: 0 0 2rem;
+    text-transform: uppercase;
   }
 /*----------Buttons---------------*/
 .btn {
