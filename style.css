@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #e50914;
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+    color: #999;
+    font-family: 'Arial', sans-serif;
+  }
+ul {
+    list-style: none;
+  }
+h1,
+h2,
+h3,
+h4 {
+    color: #fff;
+  }
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+p {
+    margin: 0.5rem 0 0.5rem;
+  }
+img {
+    width: 100%;
+  }
+.showcase {
+    background: url('/resources/background.jpg') no-repeat center center/cover;
+    height: 90vh;
+    position: relative;
+    width: 100%;
+  }
+.showcase-top {
+    height: 90px;
+    position: relative;
+  }
+.showcase-top img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 170px;
+  }
+.showcase-top a {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+.showcase-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 9rem;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 65%;
+    z-index: 2;
+  }
+.showcase-content h1 {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+  }
+/*----------Buttons---------------*/
+.btn {
+    background: var(--primary-color);
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    color: #fff;
+    cursor: pointer;
+    display: inline;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.4rem 1.3rem;
+    text-align: center;
+  }
+.btn-rounded {
+    border-radius: 5px;
+  }
+.btn-xl {
+    font-size: 2rem;
+    padding: 1.5rem 2.1rem;
+    text-transform: uppercase;
+  }
+.btn-lg {
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+  }
