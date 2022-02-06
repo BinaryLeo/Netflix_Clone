@@ -1,4 +1,5 @@
-# Netflix_Clone
+<img src="https://github.com/BinaryLeo/Netflix_Clone/blob/main/resources/logo.png" alt="drawing" width="150"/> Clone
+
 Netflix Landing Page Clone with HTML, CSS &amp; JS
 
 https://binaryleo.github.io/Netflix_Clone/
