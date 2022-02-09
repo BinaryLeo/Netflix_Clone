@@ -10,8 +10,8 @@ function selectItem(e) {
   console.log(this.id);
  
   //add show class
-  const tabContentItems = document.querySelector(`#${this.id}-content`);
-  tabContentItems.classList.add('show');
+  const tabContentItem = document.querySelector(`#${this.id}-content`);
+  tabContentItem.classList.add('show');
 }
 // Remove show class from all content items
 function removeShow(){
@@ -22,3 +22,5 @@ tabItems.forEach(item => item.classList.remove('tab-border'))
 }
 //Listen for tab click
 tabItems.forEach(item => item.addEventListener('click', selectItem))
+
+
